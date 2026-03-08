@@ -1,3 +1,4 @@
 *backups/*
 *.xml
 *Gerber/*
+fp-info-cache
