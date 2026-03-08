@@ -1,0 +1,34 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
+%TF.CreationDate,2026-03-07T13:37:36-05:00*%
+%TF.ProjectId,Tiny Solar supply,54696e79-2053-46f6-9c61-722073757070,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-03-07 13:37:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.700000X1.700000*%
+%ADD11C,1.700000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J1*%
+X107375000Y-99309000D03*
+D11*
+X107375000Y-101849000D03*
+%TD*%
+D10*
+%TO.C,J2*%
+X71441000Y-105156000D03*
+D11*
+X71441000Y-102616000D03*
+%TD*%
+%TO.C,J4*%
+X71441000Y-96012000D03*
+D10*
+X71441000Y-98552000D03*
+%TD*%
+M02*

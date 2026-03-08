@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TerminalBlock")(type "KiCad")(uri "C:/Users/bolon/OneDrive/Documents/Banky KiCAD/kicad-footprints-master/TerminalBlock.pretty")(options "")(descr ""))
+  (lib (name "digikey-footprints")(type "KiCad")(uri "C:/Users/bolon/OneDrive/Documents/Banky KiCAD/digikey-kicad-library-master/digikey-kicad-library-master/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "Switch_Slide_11.6x4mm_EG1218")(type "KiCad")(uri "C:/Users/bolon/OneDrive/Documents/Banky KiCAD/kicad-footprints-master/Switch_slide.pretty/Switch_Slide_11.6x4mm_EG1218.kicad_mod")(options "")(descr ""))
+)
