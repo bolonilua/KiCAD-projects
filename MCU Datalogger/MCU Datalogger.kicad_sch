@@ -4398,7 +4398,7 @@
 		)
 		(uuid "5b5431e5-19a4-48f6-b29c-4f4a169da430")
 	)
-	(label "SCK"
+	(label "D9"
 		(at 196.85 64.77 0)
 		(effects
 			(font
