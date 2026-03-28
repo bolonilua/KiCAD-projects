@@ -2080,8 +2080,7 @@
 		)
 		(property "Value" "16MHz"
 			(at 0 2.8 90)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "F.SilkS")
 			(uuid "54421dbd-52fa-4131-a340-81c9153f013f")
 			(effects
 				(font
@@ -2247,7 +2246,7 @@
 		(property "Reference" "U2"
 			(at -4.826 -1.524 0)
 			(layer "F.SilkS")
-			(uuid "f31d8f91-7f31-4165-9507-a4615a6ae34b")
+			(uuid "b3faefca-12f4-4c08-bfea-7b5b773062e2")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -2259,7 +2258,7 @@
 			(at 7.46 3.332 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8e782af4-9e8b-472c-83c7-67d44f235455")
+			(uuid "464c0b46-0d0e-42eb-83be-b01ca237d193")
 			(effects
 				(font
 					(size 1 1)
@@ -2271,7 +2270,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d0b6fc0-8db9-42eb-b32e-7954d0726908")
+			(uuid "3fde7e5c-1c89-4ba8-b832-04559919540a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,7 +2282,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6177498f-5884-48b4-9b83-87bdaf552999")
+			(uuid "f97a8709-93dc-4dcb-9f1c-ec60e3cfdb08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,6 +2622,17 @@
 			(uuid "d90b6d53-18f7-4fce-adb3-7ffe9f63e408")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/Banks/Documents/Banky KiCAD/kiCAD Local Library/library/DS1337S_/DS1337S+.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -3766,7 +3776,7 @@
 		(property "Reference" "Y1"
 			(at 0 -2.8 90)
 			(layer "F.SilkS")
-			(uuid "6b412cab-3969-4095-907a-80e54d8a7461")
+			(uuid "e89e6c5a-e226-4a19-ba45-a58090e51834")
 			(effects
 				(font
 					(size 0.7 0.7)
@@ -3776,9 +3786,8 @@
 		)
 		(property "Value" "32.768KHz"
 			(at 0 2.8 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "391fbe7e-cb84-402f-9a8c-1b9e657e49ef")
+			(layer "F.SilkS")
+			(uuid "d54a3a42-daaa-486c-9a40-6edfa148d96d")
 			(effects
 				(font
 					(size 1 1)
@@ -3790,7 +3799,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a5593a9-1c4d-4cf1-aca4-4c4cf94e12db")
+			(uuid "d02dc1f7-da7f-4beb-a5e4-3a8e0d9f70fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3802,7 +3811,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b447769-e9c9-432e-8c53-f4b82c269605")
+			(uuid "340f21be-1560-4115-acc3-653e08492166")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6094,6 +6103,17 @@
 			(uuid "c14791a1-027f-4484-a7a4-6b779e5f1fc3")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/Banks/Documents/Banky KiCAD/kiCAD Local Library/library/ATMEGA328P-AU/ATMEGA328P-AU.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -8685,6 +8705,14 @@
 		(uuid "02f25e59-9d42-4a2d-b8c7-f7fb35994d50")
 	)
 	(segment
+		(start 158 91.96)
+		(end 157.48 91.44)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "0576248e-adca-4c86-b734-5afdeb2b40d9")
+	)
+	(segment
 		(start 122.1425 94.615)
 		(end 121.330001 94.615)
 		(width 0.25)
@@ -8731,6 +8759,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "1ca48ead-69df-4e38-98e2-530f4e24c05c")
+	)
+	(segment
+		(start 158.75 94.996)
+		(end 158 94.246)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "2495580d-885a-43ae-9d23-ed40be5e2ffe")
 	)
 	(segment
 		(start 145.106215 90.306215)
@@ -8803,14 +8839,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "3b1ac9ca-946f-47c6-8f5d-6aedcb526176")
-	)
-	(segment
-		(start 157.734 91.694)
-		(end 157.48 91.44)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "3b363d1e-9fde-4c9f-8104-ee0f2939ba93")
 	)
 	(segment
 		(start 116.612774 113.665)
@@ -8901,12 +8929,12 @@
 		(uuid "5b97d7eb-00ce-4512-96d4-4062b5f8f89e")
 	)
 	(segment
-		(start 157.887 94.133)
-		(end 157.887 93.678479)
+		(start 158 94.246)
+		(end 158 91.96)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "5be73648-afba-4436-b832-26a1795955ef")
+		(uuid "5fa5a2e5-2601-4835-9ec5-4c80d14c2b60")
 	)
 	(segment
 		(start 145.10143 90.311)
@@ -9045,14 +9073,6 @@
 		(uuid "98b372ef-95d5-41d8-84f5-5ce8e72df9b5")
 	)
 	(segment
-		(start 157.734 93.52548)
-		(end 157.734 91.694)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "991b2b9a-ed3b-4f75-a005-81b833acc0a8")
-	)
-	(segment
 		(start 145.658998 90.036)
 		(end 145.330998 90.364)
 		(width 0.25)
@@ -9123,6 +9143,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "b3b5157d-7aea-4ae1-9a2d-24ba5fac3465")
+	)
+	(segment
+		(start 158.75 95.885)
+		(end 158.75 94.996)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "c02f5c3e-a49e-46fe-8d95-0915e6338df7")
 	)
 	(segment
 		(start 145.330998 90.364)
@@ -9245,28 +9273,12 @@
 		(uuid "f05c2d7c-1c78-42f4-a710-ce1e12387322")
 	)
 	(segment
-		(start 158.75 95.885)
-		(end 158.75 94.996)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "f40263bb-bf51-4ac1-a0d1-23dce7a7e107")
-	)
-	(segment
 		(start 146.665 98.7825)
 		(end 151.13 98.7825)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f4c773d2-b341-4c4b-9a10-4f5349a0bc7e")
-	)
-	(segment
-		(start 158.75 94.996)
-		(end 157.887 94.133)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "f5b931c2-eb57-4797-ba9c-fbdb2c8c7d1a")
 	)
 	(segment
 		(start 158.75 95.885)
@@ -9283,14 +9295,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f61f6efe-2114-43fc-bbf3-464b4ed8e4b2")
-	)
-	(segment
-		(start 157.887 93.678479)
-		(end 157.734 93.52548)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "f87ab9a1-782a-4de4-8058-3dbdae3a01d4")
 	)
 	(segment
 		(start 163.195 105.41)
