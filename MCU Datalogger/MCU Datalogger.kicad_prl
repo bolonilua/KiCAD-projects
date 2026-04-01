@@ -1,19 +1,19 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 7,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6200000047683716,
+      "images": 1.0,
       "pads": 1.0,
-      "shapes": 0.8500000238418579,
+      "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6000000238418579
+      "zones": 1.0
     },
     "selection_filter": {
       "dimensions": true,
@@ -50,7 +50,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffff55ff",
     "zone_display_mode": 0
   },
   "git": {
@@ -88,18 +88,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
-      71,
-      91,
-      91,
-      91,
-      91
+      99,
+      92,
+      61,
+      41,
+      61,
+      61,
+      61,
+      43,
+      61,
+      61
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "ATMEGA328P-AU")(type "KiCad")(uri "C:/Users/Banks/Documents/Banky KiCAD/kiCAD Local Library/library/ATMEGA328P-AU")(options "")(descr ""))
   (lib (name "DS1337S_")(type "KiCad")(uri "C:/Users/Banks/Documents/Banky KiCAD/kiCAD Local Library/library/DS1337S_")(options "")(descr ""))
+  (lib (name "library")(type "KiCad")(uri "C:/Users/Banks/Documents/Banky KiCAD/kiCAD Local Library/library.pretty")(options "")(descr ""))
+  (lib (name "Heratek_Logo")(type "KiCad")(uri "C:/Users/Banks/Documents/Banky KiCAD/kiCAD Local Library/library/Heratek_Logo")(options "")(descr ""))
 )
