@@ -1,0 +1,8 @@
+*backups/*
+*.xml
+*Gerber/*
+*gerber/*
+2_MCU Datalogger gerbers/*
+4_MCU Datalogger gerbers/*
+fp-info-cache
+*#auto_saved_files#

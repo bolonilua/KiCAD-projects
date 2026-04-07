@@ -1,0 +1,91 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "e4798ae4-175b-430f-b322-822a145e595f",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classic",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.0,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "schematicpdf",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "",
+      "id": "6b4b9c11-6f66-42b3-8901-8336006f5a20",
+      "settings": {
+        "bom_format_preset_name": "",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": false,
+        "field_delimiter": "",
+        "fields_group_by": [],
+        "fields_labels": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "Datasheet",
+          "Description",
+          "Qty",
+          "#",
+          "Sim.Device",
+          "Sim.Params",
+          "Sim.Pins",
+          "Sim.Type"
+        ],
+        "fields_ordered": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "__Datasheet",
+          "__Description",
+          "${QUANTITY}",
+          "${ITEM_NUMBER}",
+          "__Sim.Device",
+          "__Sim.Params",
+          "__Sim.Pins",
+          "__Sim.Type"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": false,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "BOM",
+        "ref_delimiter": "",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "Reference",
+        "string_delimiter": ""
+      },
+      "type": "sch_export_bom"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "a4c2e0c6-6936-4d02-bd95-5d001184c2d4",
+      "only": [],
+      "settings": {
+        "output_path": "blog"
+      },
+      "type": "folder"
+    }
+  ]
+}

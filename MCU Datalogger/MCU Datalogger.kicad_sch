@@ -4748,6 +4748,52 @@
 		)
 		(uuid "fd771fa4-04d5-4a64-acde-1149e6eff55b")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 106.68 184.15) (xy 34.29 184.15) (xy 34.29 142.24) (xy 93.98 142.24) (xy 106.68 154.94)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e9afc095-d65b-4bd9-9227-97f326f5f28b)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 38.1 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dd7d682-8b61-4f99-a41c-638941c1aae8")
+		(property "Netclass" ""
+			(at -300.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "EEPROM"
+			(at 38.7985 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 270.51 77.47 0)
