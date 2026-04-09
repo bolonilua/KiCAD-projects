@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP32_project_Footprints")(type "KiCad")(uri "C:/Users/Banks/Documents/Banky KiCAD/kiCAD Local Library/Libraries/Footprints")(options "")(descr ""))
+)
