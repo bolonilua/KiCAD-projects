@@ -5427,7 +5427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SS-52400-002:BELFUSE_SS-52400-002"
+		(property "Footprint" "ESP32_project_Footprints:BELFUSE_SS-52400-002"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -7528,7 +7528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "B2B-PH-SM4-TB:JST_B2B-PH-SM4-TB"
+		(property "Footprint" "ESP32_project_Footprints:JST_B2B-PH-SM4-TB"
 			(at 45.72 176.53 0)
 			(effects
 				(font
@@ -9080,7 +9080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM1117MPX-3.3:VREG_LM1117MPX-3.3"
+		(property "Footprint" "ESP32_project_Footprints:VREG_LM1117MPX-3.3"
 			(at 64.77 130.81 0)
 			(effects
 				(font

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "5da97795-87b0-4342-ae15-bf73adda25ff")
+	(uuid "3e64d5c1-9a42-4ed0-bf59-b954325ed6e4")
 	(paper "A4")
 	(title_block
 		(title "ESP32 Sensors")
@@ -3302,7 +3302,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BME280:PSON65P250X250X100-8N"
+		(property "Footprint" "ESP32_project_Footprints:PSON65P250X250X100-8N"
 			(at 67.31 50.8 0)
 			(effects
 				(font
@@ -3717,7 +3717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CMC-5042PF-AC:CUI_CMC-5042PF-AC"
+		(property "Footprint" "ESP32_project_Footprints:CUI_CMC-5042PF-AC"
 			(at 172.72 123.19 0)
 			(effects
 				(font
@@ -4359,7 +4359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TEMT6000X01:TRANS_TEMT6000X01"
+		(property "Footprint" "ESP32_project_Footprints:TRANS_TEMT6000X01"
 			(at 165.1 63.5 0)
 			(effects
 				(font
@@ -4872,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX4466EXK:SOT65P210X110-5N"
+		(property "Footprint" "ESP32_project_Footprints:SOT65P210X110-5N"
 			(at 229.87 123.19 0)
 			(effects
 				(font

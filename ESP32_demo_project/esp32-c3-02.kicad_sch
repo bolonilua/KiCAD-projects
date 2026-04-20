@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "6b7795ef-06b6-4668-a41b-22b4755b9c30")
+	(uuid "22aea627-235e-49c7-b3a7-d74176ff4c66")
 	(paper "A4")
 	(title_block
 		(title "ESP32, C3, USB, and flash memory")
@@ -6306,7 +6306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GSD090012SEU:AMPHENOL_GSD090012SEU"
+		(property "Footprint" "ESP32_project_Footprints:AMPHENOL_GSD090012SEU"
 			(at 210.82 135.89 0)
 			(effects
 				(font
@@ -7221,7 +7221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
+		(property "Footprint" "ESP32_project_Footprints:SOIC127P790X216-8N"
 			(at 71.12 160.02 0)
 			(effects
 				(font
@@ -8476,7 +8476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
+		(property "Footprint" "ESP32_project_Footprints:MODULE_ESP32-C3-WROOM-02-H4"
 			(at 209.55 62.23 0)
 			(effects
 				(font
@@ -9635,7 +9635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm"
 			(at 102.87 97.79 0)
 			(effects
 				(font

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "149c80bc-629e-4412-8094-cde43b8bf7e3")
+	(uuid "91c4af06-6c06-45d9-8a48-4e7c28f973fe")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
@@ -3828,7 +3828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "ESP32_project_Footprints:SW_USLPT2819DT2TR"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -4709,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USLPT2819DT2TR:SW_USLPT2819DT2TR"
+		(property "Footprint" "ESP32_project_Footprints:SW_USLPT2819DT2TR"
 			(at 171.45 54.61 0)
 			(effects
 				(font
