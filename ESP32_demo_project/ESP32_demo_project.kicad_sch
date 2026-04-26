@@ -1528,16 +1528,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "onsemi"
+			(property "Description" "800-mA 15-V linear voltage regulator 4-SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1547,7 +1538,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "800-mA 15-V linear voltage regulator 4-SOT-223"
+			(property "MF" "onsemi"
 				(at 0 0 0)
 				(effects
 					(font

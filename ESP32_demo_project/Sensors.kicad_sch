@@ -56,16 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Bosch"
+			(property "Description" "Integrated pressure, humidity and temperature sensor; 8-pin 2.5x2.5x0.93mm LGA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Integrated pressure, humidity and temperature sensor; 8-pin 2.5x2.5x0.93mm LGA"
+			(property "MF" "Bosch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1848,6 +1839,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 16.51 18.542)
@@ -1984,6 +2076,12 @@
 		(uuid "300276c9-7ac9-4de8-a44b-c83282702a48")
 	)
 	(junction
+		(at 200.66 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d20761-f1a0-45ce-9c9a-f1256303fbbb")
+	)
+	(junction
 		(at 41.91 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2030,12 +2128,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bedc4993-c076-44be-a77e-eaca73e782db")
-	)
-	(junction
-		(at 207.01 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdb1d580-6d06-41c9-beda-ccfcceb7d44d")
 	)
 	(junction
 		(at 184.15 120.65)
@@ -2209,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 142.24) (xy 207.01 142.24)
+			(xy 195.58 142.24) (xy 200.66 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2236,16 +2328,6 @@
 			(type default)
 		)
 		(uuid "3871bbb5-5e0c-428e-9eb6-3918e2ff4824")
-	)
-	(wire
-		(pts
-			(xy 207.01 142.24) (xy 212.09 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38fcba86-d841-4a80-86e2-c54122ad4ccd")
 	)
 	(wire
 		(pts
@@ -2279,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 123.19) (xy 207.01 129.54)
+			(xy 207.01 123.19) (xy 207.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2409,6 +2491,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 140.97) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fa1af1-2992-4deb-a7f4-64a7de92cb3d")
+	)
+	(wire
+		(pts
 			(xy 255.27 121.92) (xy 255.27 115.57)
 		)
 		(stroke
@@ -2449,7 +2541,17 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 137.16) (xy 207.01 142.24)
+			(xy 200.66 142.24) (xy 207.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5d1eab-5703-4442-9f51-ec3a0ac97244")
+	)
+	(wire
+		(pts
+			(xy 207.01 132.08) (xy 207.01 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2659,7 +2761,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 120.65) (xy 195.58 120.65)
+			(xy 184.15 120.65) (xy 187.96 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4334,6 +4436,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 207.01 137.16 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96d675dd-c79f-41d9-8446-d535a0f60da6")
+		(property "Reference" "C21"
+			(at 203.708 134.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 203.962 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 206.0448 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60a00d9d-1d2f-4cfd-a7bb-875594558dbd")
+		)
+		(pin "1"
+			(uuid "8d51f632-d44e-4477-a095-0b80a33c2fd0")
+		)
+		(instances
+			(project "ESP32_demo_project"
+				(path "/bebedc1a-cede-44cf-af65-0ae0ecec96ba/261aef30-9265-4353-badb-9af4732a592d/e910f478-5103-4412-a008-27c86e3ebe47"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TEMT6000X01:TEMT6000X01")
 		(at 165.1 63.5 270)
 		(unit 1)
@@ -4715,7 +4885,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 207.01 133.35 180)
+		(at 207.01 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4723,7 +4893,7 @@
 		(dnp no)
 		(uuid "c2d19087-931a-4cc1-a8df-b65489fe0591")
 		(property "Reference" "R29"
-			(at 203.454 132.334 0)
+			(at 203.454 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4901,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 203.708 134.874 0)
+			(at 203.708 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4739,7 +4909,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 205.994 133.096 90)
+			(at 205.994 128.016 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 133.35 0)
+			(at 207.01 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4927,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 207.01 133.35 0)
+			(at 207.01 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,6 +5011,72 @@
 			(project "ESP32_demo_project"
 				(path "/bebedc1a-cede-44cf-af65-0ae0ecec96ba/261aef30-9265-4353-badb-9af4732a592d/e910f478-5103-4412-a008-27c86e3ebe47"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 200.66 142.24 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb8861c9-4310-4bbc-9600-30e4eae24ca9")
+		(property "Reference" "#FLG05"
+			(at 200.66 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 200.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 200.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cce0413-b362-417f-a97b-01fc3affb3c5")
+		)
+		(instances
+			(project ""
+				(path "/bebedc1a-cede-44cf-af65-0ae0ecec96ba/261aef30-9265-4353-badb-9af4732a592d/e910f478-5103-4412-a008-27c86e3ebe47"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5065,6 +5301,75 @@
 			(project "ESP32_demo_project"
 				(path "/bebedc1a-cede-44cf-af65-0ae0ecec96ba/261aef30-9265-4353-badb-9af4732a592d/e910f478-5103-4412-a008-27c86e3ebe47"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 191.77 120.65 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e71f30ee-667c-4061-bf4c-d07c60d36436")
+		(property "Reference" "C22"
+			(at 191.262 117.094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1n"
+			(at 188.976 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 187.96 119.6848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 191.77 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "25fa5ba0-4d94-4cb1-b227-75e2966b308a")
+		)
+		(pin "1"
+			(uuid "43728ac8-a8d2-4461-ab4b-be00cf00f94b")
+		)
+		(instances
+			(project "ESP32_demo_project"
+				(path "/bebedc1a-cede-44cf-af65-0ae0ecec96ba/261aef30-9265-4353-badb-9af4732a592d/e910f478-5103-4412-a008-27c86e3ebe47"
+					(reference "C22")
 					(unit 1)
 				)
 			)
